@@ -6,18 +6,20 @@
     --seconr-color: #f6eaea;
     --second-color: #101010;
     --bth-color: #2196F3;
+    --main-color: #E5E5E5;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background: var(--primary-white-color);
+    font-family: 'Roboto', sans-serif;
+    background: var(--primary-white-color);
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .list {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .header-nav .link.current,
@@ -30,117 +32,161 @@ a {
 /* logo*/
 
 .logo-web {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: var(--accent-text-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-text-color);
 }
 
 .logo-studio {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
 }
 
 /*----- header-nav-------*/
+
 .header-nav .link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 /* contacts list*/
-.contacts-list .link{
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
+.contacts-list .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
-
-
 
 /*------- hero------------------*/
 
 .hero {
-  background: #2f303a;
+    background: #2f303a;
 }
 
 
 
 .hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-}
-/*---------button-----------*/
-.hero-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  color: var(--primary-white-color);
-  background-color: var(--bth-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
 }
 
-/*-----section */
+/*---------button-----------*/
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--primary-white-color);
+    background-color: var(--bth-color);
+}
+
+.btn-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+     color:var(--primary-text-color)
+}
+
+/*-----main-----*/
+
+.button-portfolio.current,
+.button-portfolio:active,
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--accent-text-color);
+    background-color: #F5F4FA;
+}
+
+
+
+    
+
+.gallery-title{
+font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--primary-text-color);
+}
+
+
+.gallery-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.8;
+        color: var(--title-text-color);
+    }
+     
+
+
+/*-----section-- */
 
 .section-titel {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
 }
 
 .title {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--title-text-color);
 }
+
 /*---What we are doing--*/
 
 .section-topic {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 /*---------Team----------*/
+
 .section-name {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
- 
+
 .section-team {
     background: #F5F4FA
 }
 
-    
-     
+.team-list{
+    background: #FFFFFF
+}
 
 /*---------FOOTER----------*/
 
 footer {
-  background: #2f303a;
+    background: #2f303a;
 }
 
 .logo {
@@ -163,35 +209,33 @@ footer {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        color: var(--primary-white-color);
-    }
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
 
-        .footer-email {
-            font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 24px;
-                /* or 171% */
-                letter-spacing: 0.03em;
-            
-                color: rgba(255, 255, 255, 0.6);
-            }
-                               
-                                   .footer-tel {
-                                       font-family: 'Roboto';
-                                       font-style: normal;
-                                       font-weight: 400;
-                                       font-size: 14px;
-                                       line-height: 24px;
-                                       /* or 171% */
-                                       letter-spacing: 0.03em;
-                
-                                       color: rgba(255, 255, 255, 0.6);
-                                   }
-            
+.footer-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    letter-spacing: 0.03em;
 
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
             
