@@ -101,7 +101,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-     color:var(--primary-text-color)
+    color: var(--primary-text-color)
 }
 
 /*-----main-----*/
@@ -114,25 +114,21 @@ a {
     background-color: #F5F4FA;
 }
 
-
-
-    
-
-.gallery-title{
-font-weight: 700;
+.gallery-title {
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     color: var(--primary-text-color);
 }
 
 
-.gallery-text{
+.gallery-text {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.8;
-        color: var(--title-text-color);
-    }
-     
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--title-text-color);
+}
+
 
 
 /*-----section-- */
@@ -179,7 +175,7 @@ font-weight: 700;
     background: #F5F4FA
 }
 
-.team-list{
+.team-list {
     background: #FFFFFF
 }
 
@@ -238,4 +234,3 @@ footer {
 
     color: rgba(255, 255, 255, 0.6);
 }
-            
