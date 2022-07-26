@@ -104,15 +104,18 @@ a {
     color: var(--primary-text-color)
 }
 
-/*-----main-----*/
+
+/*-----main-button-----*/
 
 .button-portfolio.current,
 .button-portfolio:active,
 .button-portfolio:hover,
 .button-portfolio:focus {
-    color: var(--accent-text-color);
-    background-color: #F5F4FA;
+    color: var(--primary-white-color);
+    background-color: var(--bth-color);
 }
+
+
 
 .gallery-title {
     font-weight: 700;
