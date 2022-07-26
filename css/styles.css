@@ -86,8 +86,12 @@ a {
 }
 
 /*---------button-----------*/
+.button-portfolio {
+    font-family: inherit
+}
 
 .hero-btn {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -106,6 +110,10 @@ a {
 
 
 /*-----main-button-----*/
+.button-portfolio {
+    font-family: inherit
+}
+
 
 .button-portfolio.current,
 .button-portfolio:active,
